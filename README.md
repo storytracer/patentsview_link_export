@@ -52,7 +52,7 @@ Options:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/patentsview_link_export.git
+   git clone https://github.com/storytracer/patentsview_link_export.git
    cd patentsview_link_export
    ```
 
