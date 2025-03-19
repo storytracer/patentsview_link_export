@@ -21,14 +21,15 @@ After generating the URLs, you can use various download tools to retrieve the fi
 ### Using wget
 
 ```
-wget -i data/links.txt -P downloads -c -t 3
+wget -i data/links.txt -x -c -t 3 -P downloads
 ```
 
 Options:
 - `-i data/links.txt`: Input file containing URLs
-- `-P downloads`: Save files to the downloads directory
+- `-x`: Preserve directory structure
 - `-c`: Continue interrupted downloads
 - `-t 3`: Number of retries on failed downloads
+- `-P downloads`: Save files to the downloads directory
 
 ### Using aria2c (Recommended for Parallel Downloads)
 
