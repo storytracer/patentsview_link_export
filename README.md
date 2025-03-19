@@ -37,8 +37,8 @@ aria2c -i data/links.txt -c -j 8 -x 8 -d downloads
 ```
 
 Options:
-- `-c`: Continue interrupted downloads
 - `-i data/links.txt`: Input file containing URLs
+- `-c`: Continue interrupted downloads
 - `-j 8`: Number of parallel downloads
 - `-x 8`: Maximum connections per download
 - `-d downloads`: Directory to store downloaded files
