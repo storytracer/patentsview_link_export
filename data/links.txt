@@ -2,10 +2,6 @@ https://s3.amazonaws.com/data.patentsview.org/download/g_patent.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_location_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_assignee_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_inventor_not_disambiguated.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/download/g_patent.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/download/g_location_not_disambiguated.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/download/g_assignee_not_disambiguated.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/download/g_inventor_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_applicant_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_application.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/download/g_assignee_disambiguated.tsv.zip
@@ -233,10 +229,6 @@ https://s3.amazonaws.com/data.patentsview.org/draw-description-text/g_draw_desc_
 https://s3.amazonaws.com/data.patentsview.org/draw-description-text/g_draw_desc_text_2022.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/draw-description-text/g_draw_desc_text_2023.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/draw-description-text/g_draw_desc_text_2024.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_published_application.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_applicant_not_disambiguated.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_assignee_not_disambiguated.tsv.zip
-https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_inventor_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_published_application.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_applicant_not_disambiguated.tsv.zip
 https://s3.amazonaws.com/data.patentsview.org/pregrant_publications/pg_assignee_not_disambiguated.tsv.zip

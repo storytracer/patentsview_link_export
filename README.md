@@ -99,6 +99,8 @@ Each section contains dataset types (minimal, downloads, brief_summary, etc.) wi
 
 See the included `data/sources.yml` for a complete example.
 
+Note: The script skips the 'minimal' dataset type to avoid duplicate URLs, as these tables are already included in the 'downloads' dataset type.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

@@ -19,6 +19,8 @@ def generate_download_urls(config: Dict[str, Any]) -> List[str]:
     
     Parses the configuration dictionary to extract database URLs, URL templates,
     and table names, then generates the complete download URLs for each table.
+    Skips the 'minimal' dataset type to avoid duplicate URLs, as these tables
+    are already included in the 'downloads' dataset type.
     
     Args:
         config: Dictionary containing the patent data configuration
@@ -35,8 +37,12 @@ def generate_download_urls(config: Dict[str, Any]) -> List[str]:
             
         section = config[section_key]
         
-        # Process each dataset type (minimal, downloads, brief_summary, etc.)
+        # Process each dataset type (downloads, brief_summary, etc.)
         for dataset_type, dataset_config in section.items():
+            # Skip the 'minimal' dataset type as it's included in 'downloads'
+            if dataset_type == 'minimal':
+                continue
+                
             # Extract the necessary components to build the URLs
             database = dataset_config.get('database', '')  # Base URL for the dataset
             url_template = dataset_config.get('url_template', '')  # Template with placeholders
